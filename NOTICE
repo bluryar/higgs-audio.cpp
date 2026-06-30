@@ -1,0 +1,18 @@
+HiggsAudio GGML C++ runtime
+
+This repository contains runtime source code only. It does not include
+HiggsAudio model weights, generated audio, reference audio, or cached reference
+codes.
+
+Vendored dependencies:
+
+- ggml: vendored as vendor/ggml or supplied with -DHIGGS_GGML_DIR. Follow the
+  ggml license from that checkout. The current project submodule is tested at
+  ggml v0.15.3.
+- shine: vendored under third_party/shine. It is distributed under the GNU
+  Library General Public License version 2; see its COPYING file.
+- tokenizers.cpp: vendored under third_party/tokenizers.cpp. See its LICENSE,
+  NOTICE, and THIRD_PARTY_NOTICES.md.
+- miniaudio: vendored as third_party/miniaudio/miniaudio.h. The header offers a
+  public domain / Unlicense or MIT-0 choice; see the license text embedded in
+  the header.

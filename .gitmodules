@@ -1,0 +1,11 @@
+[submodule "vendor/ggml"]
+	path = vendor/ggml
+	url = https://github.com/ggml-org/ggml
+
+[submodule "third_party/tokenizers.cpp"]
+	path = third_party/tokenizers.cpp
+	url = https://github.com/bluryar/tokenizers.cpp
+
+[submodule "third_party/shine"]
+	path = third_party/shine
+	url = https://github.com/toots/shine

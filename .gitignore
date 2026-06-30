@@ -1,0 +1,14 @@
+build*/
+third_party/tokenizers.cpp/build*/
+*.wav
+*.mp3
+*.flac
+*.gguf
+*.safetensors
+*.pt
+*.pth
+*.bin
+*.jsonl
+*.trace.json
+*.codes.json
+.cache/
